@@ -1,0 +1,148 @@
+.ct-btn-scroll {
+  font-size: 3rem;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  padding-bottom: 4rem;
+}
+
+.booking{
+  text-decoration:none;
+  color:black;
+}
+.booking:hover{
+  text-decoration:none;
+  color:#576c7d;
+}
+
+.navbar {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 7.5rem;
+  font-size: 1rem;
+}
+
+
+.navbar-brand {
+  font-family: "Montserrat";
+  font-weight: 800;
+}
+
+.nav-item {
+  color: #132C33;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-right: 0;
+  padding-left: 3rem;
+}
+
+.dropdown-item {
+  font-family: "Montserrat";
+  font-weight: 200;
+}
+
+.intro_text {
+  font-family: "Oxygen";
+  font-weight: 300;
+  text-align: left;
+  line-height: 6rem;
+  padding: 3.5rem;
+  margin-top: 10rem;
+  margin-bottom: 0;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.intro_image {
+  width: 90%;
+  padding: 4rem;
+  margin-top: 8rem;
+  margin-bottom: 0;
+}
+
+.plans-left {
+  padding-top: 2rem;
+  margin: 4rem;
+  padding-left: 8.2rem;
+  align-items: center;
+}
+
+.plans-right {
+  padding-top: 2rem;
+  margin: 4rem;
+  padding-right: 8.2rem;
+  align-items: center;
+}
+
+.Subjects {
+  padding-bottom: 2rem;
+}
+
+.subject_name_in_plans {
+  margin-top: -2rem;
+  text-align: center;
+  padding: 2rem;
+  font-style: "Montserrat";
+  font-weight: 400;
+}
+
+.plans-left, .btn {
+  margin-left: 14.1rem;
+  padding: 1rem;
+}
+
+.plans-right, .btn {
+  margin-right: 14.4rem;
+  padding: 1rem;
+}
+
+.sub_description {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  margin-top: 2rem;
+  font-style: "Oxygen";
+  font-weight: 300;
+  line-height: 4rem;
+  font-size: 2.5rem;
+}
+
+.social-icon {
+  color:#132C33;
+  margin: 4rem 2rem;
+  font-size: 2rem;
+}
+
+.scroll-down{
+  color:black;
+}
+
+.scroll-down:hover{
+  color:#576c7d;
+}
+
+.social-icon:hover{
+  color:#576c7d;
+}
+
+#section1 {
+  background-color: #D8E3E7;
+}
+
+#section2 {
+  background-color: #576c7d;
+  color: white;
+  padding-top: 5rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+#footer {
+  background-color: #D8E3E7;
+  text-align: center;
+  margin-bottom: -2rem;
+  padding-bottom: 1rem;
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>BookMySlot</title>
+
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;800&family=Oxygen:wght@300&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</head>
+
+
+
+
+<body>
+
+  <section id="section1" class="introduction">
+
+    <!--NAVBAR-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+      <div class="container-fluid row">
+        <div class="col-lg-6">
+          <a class="navbar-brand navbar-title" style="font-size:xx-large" href="#"><a href="#"></a>Course Slot Booking</a>
+        </div>
+        <div class="col-lg-6">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Bookings</a>
+              </li>
+
+
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">About Us</a>
+              </li>
+
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" >
+                  Courses
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#section2">Biology</a></li>
+                  <li><a class="dropdown-item" href="#bio_sub">Mathematics</a></li>
+                  <li><a class="dropdown-item" href="#math_sub">Social Sciences</a></li>
+                  <li><a class="dropdown-item" href="#soc_sub">General Knowledge</a></li>
+                </ul>
+              </li>
+
+
+
+
+            </ul>
+          </div>
+        </div>
+
+
+      </div>
+    </nav>
+
+
+    <!--INTRO-->
+
+
+    <div class="row">
+      <div class="col-lg-6 ">
+        <h1 class="intro_text">Indulge yourself in learning new things. Pick a course you like. Start today!</h1>
+      </div>
+
+      <div class="col-lg-6 ">
+        <img class="intro_image" src="image_1_ccexpress.png" alt="studying">
+      </div>
+
+
+    </div>
+
+    <div class="col-lg-12 ct-btn-scroll ct-js-btn-scroll">
+      <a class="scroll-down" href="#section2"><i class="fas fa-chevron-circle-down" ></i></a>
+    </div>
+
+  </section>
+
+
+
+
+
+
+  <section id="section2" class="Subjects" z-index=1>
+    <div class="row plans-left">
+      <div class="col-lg-6">
+        <h1 class="subject_name_in_plans">Biology</h1>
+        <button type="button" class="btn btn-light btn-lg bookingButton" id="bio_sub"><a class="booking"href="biology.html">Reserve slot booking</a></button>
+      </div>
+      <div class="sub_description col-lg-6">
+        This course includes a study of living organisms and vital processes. Curious? Book your slot now!
+      </div>
+    </div>
+
+    <div class="row plans-right">
+      <div class="sub_description col-lg-6">
+        Tired of memorizing all the formulas? You dont need to! Book your slot to know how!
+      </div>
+      <div class="col-lg-6">
+        <h1 class="subject_name_in_plans">Mathematics</h1>
+        <button type="button" class="btn btn-light btn-lg bookingButton" id="math_sub"><a class="booking" href="mathematics.html">Reserve slot booking</a></button>
+      </div>
+    </div>
+
+    <div class="row plans-left">
+      <div class="col-lg-6">
+        <h1 class="subject_name_in_plans" >Social Studies</h1>
+        <button type="button" class="btn btn-light btn-lg bookingButton" id="soc_sub"><a class="booking"href="socialStudies.html">Reserve slot booking</a></button>
+      </div>
+      <div class="sub_description col-lg-6">
+        Discover the similarities and differences among people from past and the present. Book your slot to know more!
+      </div>
+    </div>
+
+    <div class="row plans-right">
+      <div class="sub_description col-lg-6">
+        Get the overall basic knowledge of all the subjects and learn interesting facts! Book your slot now!
+      </div>
+      <div class="col-lg-6">
+        <h1 class="subject_name_in_plans" >General Knowledge</h1>
+        <button type="button" class="btn btn-light btn-lg bookingButton" id="gk_sub"><a class="booking" href="generalKnowledge.html">Reserve slot booking</a></button>
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+
+
+
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2022 BookMySlot</p>
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>

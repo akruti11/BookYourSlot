@@ -1,0 +1,82 @@
+.left-container-text{
+  background-color:  #576c7d;
+  color:white;
+  border: 0;
+  padding-top:5.8rem;
+  padding-right:6rem;
+  padding-bottom: 2rem;
+  text-align: right;
+  line-height: inherit;
+}
+
+.right-container{
+  background-color: #D8E3E7;
+  color:black;
+  padding: 5.8rem;
+  align-items: center;
+}
+
+.right-text{
+  padding-left: 5.8rem;
+  padding-right:5.8rem;
+  font-size: 4rem;
+  font-family: "Oxygen";
+  font-weight: 300;
+  line-height: 6rem;
+}
+
+input{
+  width:150%;
+  border-radius: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-right: 0.5rem;
+  font-size: 1rem !IMPORTANT;
+  padding-bottom: 0.5rem;
+  border-width: thick;
+  border-style: solid;
+}
+select{
+  width:150%;
+  border-radius: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1rem !IMPORTANT;
+  border-style: solid;
+  border-width: thick;
+}
+
+.set-item{
+  color:black;
+  font-size: 1.5rem;
+  font-style: "Montserrat";
+  font-weight: 600;
+  text-align: left;
+  padding-top:2rem;
+  padding-left:6rem;
+}
+.set{
+  padding-top: 1.05rem;
+  padding-bottom: -2rem;
+}
+
+.left-container-image{
+  background-color: #576c7d ;
+  border: 0;
+  padding-left: 2rem;
+  padding-right: 4rem;
+  padding-top:0;
+  size:40%;
+}
+
+.button{
+  padding-top: 6rem;
+  padding-left:14rem;
+}
+
+.btn-dark{
+  border-left:12rem;
+  padding-left: 5rem;
+}
